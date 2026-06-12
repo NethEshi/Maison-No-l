@@ -7,10 +7,11 @@ export default function Footer() {
   return (
     <footer className="site-footer" id="footer">
       <div className="footer-container">
-        
+
         {/* Main Footer Grid */}
         <div className="footer-grid">
-          
+          {/* footer */}
+
           {/* Brand Block Column */}
           <div className="footer-brand-col">
             <div className="footer-brand-title">
@@ -19,13 +20,13 @@ export default function Footer() {
             <p className="footer-brand-text">
               Formulated with pure botanicals, crafted for mindful skincare rituals. Parisian apothecary meets candlelit Christmas elegance.
             </p>
-            
+
             {/* Social Icons in 36px circles */}
             <div className="footer-socials">
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="footer-social-link"
                 aria-label="Instagram profile of Maison Noël"
               >
@@ -33,10 +34,10 @@ export default function Footer() {
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                 </svg>
               </a>
-              <a 
-                href="https://pinterest.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://pinterest.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="footer-social-link"
                 aria-label="Pinterest board of Maison Noël"
               >
@@ -44,10 +45,10 @@ export default function Footer() {
                   <path d="M12.017 0c-6.627 0-12 5.373-12 12 0 5.077 3.153 9.422 7.625 11.169-.103-.949-.19-2.405.04-3.438.207-.902 1.341-5.685 1.341-5.685s-.343-.689-.343-1.707c0-1.6 1.05-2.795 2.193-2.795.94 0 1.393.705 1.393 1.55 0 .943-.6 2.355-.908 3.665-.26.11-.519.221-.774.331-.763-.332-1.393-1.077-1.393-2.037 0-1.802 1.458-3.262 3.262-3.262 1.802 0 3.262 1.46 3.262 3.262 0 .961-.26 1.884-.716 2.684.256-.11.516-.22.772-.33 1.385-1.002 2.179-2.613 2.179-4.382 0-3.66-2.969-6.63-6.63-6.63-3.662 0-6.63 2.97-6.63 6.63 0 1.258.342 2.441.939 3.486l-.508 1.9c-.314.135-.629.27-.942.404-.949-.41-1.688-1.144-2.18-2.034-.59-1.071-.852-2.344-.852-3.66 0-4.636 3.758-8.394 8.394-8.394 4.636 0 8.394 3.758 8.394 8.394 0 1.9-.508 3.654-1.39 5.034.464-.197.927-.394 1.391-.592 1.442-1.074 2.274-2.733 2.274-4.57 0-3.66-2.969-6.63-6.63-6.63z" />
                 </svg>
               </a>
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="footer-social-link"
                 aria-label="Facebook page of Maison Noël"
               >
