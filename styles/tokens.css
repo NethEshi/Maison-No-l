@@ -1,0 +1,48 @@
+:root {
+  /* Burgundy family — primary brand */
+  --burgundy-deep: #3D0F1A;   /* hero backgrounds, footer accents */
+  --burgundy:      #6B1F2E;   /* primary brand color */
+  --burgundy-soft: #8C2E3F;   /* hover / secondary accent */
+
+  /* Cream family — backgrounds */
+  --cream:        #F5EDE0;    /* primary page background */
+  --cream-warm:   #EFE3D0;    /* secondary surfaces */
+  --cream-deep:   #E5D5BC;    /* tertiary surfaces */
+
+  /* Gold family — accents */
+  --gold:         #B8924A;    /* primary accent (antique brass) */
+  --gold-light:   #D4B074;    /* highlights on dark backgrounds */
+  --gold-deep:    #8B6A2E;    /* type accent on cream */
+
+  /* Seasonal accents — use sparingly */
+  --pine:         #2B3A2E;    /* deep evergreen */
+  --pine-soft:    #4A5C4A;    /* moss accent */
+  --blush:        #D4A199;    /* soft rose */
+
+  /* Neutrals */
+  --ink:          #1A0A0E;    /* near-black with wine undertone — body text */
+  --ink-soft:     #4A2530;    /* secondary text */
+
+  /* Spacing Scale */
+  --s-1: 4px;   --s-2: 8px;   --s-3: 12px;  --s-4: 16px;
+  --s-5: 24px;  --s-6: 32px;  --s-7: 48px;  --s-8: 64px;
+  --s-9: 96px;  --s-10: 128px;
+
+  /* Radii */
+  --r-sm:   2px;     /* tags, fine borders */
+  --r-md:   6px;     /* cards */
+  --r-lg:   14px;    /* large surfaces, hero blocks */
+  --r-xl:   24px;    /* feature panels */
+  --r-pill: 999px;   /* newsletter input, tags */
+
+  /* Shadows */
+  --shadow-sm:   0 1px 2px rgba(61,15,26,0.08);              /* rest state */
+  --shadow-md:   0 8px 24px rgba(61,15,26,0.12);             /* hover */
+  --shadow-lg:   0 24px 60px rgba(61,15,26,0.18);            /* modals, featured */
+  --shadow-gold: 0 0 0 1px rgba(184,146,74,0.3),
+                 0 8px 32px rgba(184,146,74,0.18);            /* premium / active state */
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-slow:     cubic-bezier(0.4, 0, 0.2, 1);
+}
