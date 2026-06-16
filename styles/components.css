@@ -51,6 +51,7 @@
 }
 
 .section-title {
+  font-family: var(--font-display), serif;
   color: var(--burgundy-deep);
   margin-bottom: var(--s-8);
 }
@@ -404,7 +405,7 @@
 .category-title {
   font-family: var(--font-display), serif;
   font-size: 56px;
-  color: #2F3E38;
+  color: #6b1f2e;
   margin-bottom: 8px;
   line-height: 1;
 }
