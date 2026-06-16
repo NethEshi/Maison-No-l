@@ -299,14 +299,14 @@
   font-family: var(--font-sans), sans-serif;
   font-size: clamp(48px, 6vw, 72px);
   font-weight: 500;
-  color: #2F3E38;
+  color: #6b1f2e;
   /* Like pine but slightly softer */
   line-height: 1;
   margin-bottom: 8px;
 }
 
 .stars {
-  color: #2F3E38;
+  color: #6b1f2e;
   font-size: 20px;
   margin-bottom: 4px;
   letter-spacing: 2px;
